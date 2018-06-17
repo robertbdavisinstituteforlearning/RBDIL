@@ -25,14 +25,14 @@
   h1 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif, "Comic Sans MS";
-    color: #cc0033;
+    color: black;
     text-align: center;
     border-bottom: thin solid 
      }
   h2{
     font-family: Geneva, Arial,
           SunSans-Regular, sans-serif ;
-    color: #000000;    
+    color: #cc0033;    
     margin-bottom: -1em;
      }
   h3{
