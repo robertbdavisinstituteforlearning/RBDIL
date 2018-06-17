@@ -5,6 +5,16 @@
     background-color: white; 
     font-family: Georgia, "Times New Roman", Times, serif;
     padding-left: 11em }
+  div.affiliates{
+    border-color: #cc0033;
+    border-width: thin;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    text-align: center;
+    width: 100%;
+    background: #white
+  }
   div.box {
     border-color: #cc0033;
     border-width: thick;
@@ -33,7 +43,7 @@
     font-family: Geneva, Arial,
           SunSans-Regular, sans-serif ;
     color: #cc0033;    
-    margin-bottom: 2em;
+    margin-bottom: 1em;
      }
   h3{
     font-family: Arial,
@@ -52,7 +62,7 @@
     margin: 0em;
     position: absolute;
     top: 2em;
-    left: 1em;
+    left: 0em;
     width: 9em }
   ul.navbar li {
     background: white; 
