@@ -3,16 +3,68 @@
 <head>
   <title>Robert B. Davis Institute for Learning</title>
   <link rel="stylesheet" href="./rbdil.css">
+  <meta name="title" content="The Robert B. Davis Institute for Learning"/>
+  <meta name="Keywords" content=""/>
+  <meta name="Description" content=""/>
 </head>
 <body>
 
 <!-- Site navigation menu -->
 <ul class="navbar">
 
-  <li><img src="https://gse.rutgers.edu/sites/default/files/2016_04_15__0197_RU_GSE.jpg" width="100" height="140" alt="Carolyn A. Maher"></li> 
+  <li><img src="maherh150.jpg" width="100" height="140" alt="Carolyn A. Maher"></li> 
   <li><a href="index.html">Home</a></li>
   <li><a href="http://www.rutgers.edu" target="_blank">Rutgers</a></li> 
+  <li><a href="https://videomosaic.org" target="_blank">Video Mosaic Collaborative</a></li> 
+  <li><a href="davisstaff.html">Institute Staff</a></li> 
+  <li><a href="researchassociates.html">Research Associates</a></li> 
+  <li><a href="partners.html">Partners</a></li> 
+  <li><a href="robertbdavis.html">Robert B. Davis</a></li> 
+  <li><a href="jmb.html">Journal of <br> Mathematical Behavior</a></li> 
+  <li><a href="projects.html">Projects</a></li> 
+  <li><a href="classroom.html">Classroom Material</a></li> 
+  <li><a href="pd.html">Professional Development</a></li> 
 </ul>
+
+
+    <!-- Dropdown Contact Div -->
+    <div id="about" style="display:none; height: 325px;"><!-- This div requires a height for the script to work -->
+            
+      <h2>Contact Us</h2>
+      
+      <div id="info">
+        <h5>The Robert B. Davis Institute for Learning</h5>
+            <ul class="address">
+                <li>10 Seminary Place</li>
+                <li>New Brunswick, NJ</li>
+                <li>08901</li>
+            </ul>
+            
+            <ul class="phone">
+                <li>Phone: 732.932.7496 x 8161</li>
+                <li>Fax: 732-932-0130</li>
+            </ul>
+            <p>Email is the best way to contact us.</p>
+      </div><!-- /info -->
+       
+        <div id="contactDiv"><!-- this div is needed for the AJAX  -->
+        <form action="#" id="myform">
+            <fieldset>
+                <ul class="form">
+                    <li class="name"> <label for="form_name">Name:</label>
+                    <input id="form_name" class="is_required" name="Name" type="text"/></li>
+                    <li class="email"> <label for="form_email">Email:</label><br/>
+                    <input id="form_email" class="is_required vemail" name="Email" type="text"/></li>
+                    <li class="comments"> <label for="form_comment">Message:</label>
+                    <textarea id="form_comment" class="is_required" name="Comment" rows="0" cols="0"></textarea></li>
+                    <li class="submit">
+                    <input class="submit" id="send_contact" type="submit" value="Send"/></li>
+                </ul>
+            </fieldset>
+        </form>
+</div>
+<!-- /contactDiv-->
+
 
 <!-- Main content -->
 <div class="box">
