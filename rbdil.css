@@ -94,5 +94,62 @@
     padding-top: 1em;
     border-top: thin dotted }
 
+projects {
+	margin:0;
+	overflow:hidden;
+	margin-top:40px;
+}
 
+projects.li {
+	padding:0 30px;
+	background:none;
+	position:relative;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+projects.li.p {
+	font-size:11px;
+	color:#6b6b6b
+}
+
+projects.li.h5 {
+	margin:0;
+	padding:0;
+}
+
+projects.li.img {
+	float:left;
+	margin-right:40px;
+}
+
+projects.li.span {
+	font-size:9px;
+}
+
+projects.li.ul {
+	list-style:disc;
+	list-style-position:inside;
+}
+
+projects.li.ul.li {
+	font-size:12px;
+	padding:3px;
+	text-indent:1em
+}
+
+projects.hr {
+	clear:both;
+	margin:50px auto 40px;
+	width:70%;
+}
+
+projects.projectRight.img {
+	float:right;
+	margin-left:40px;
+}
+
+projects.projectRight.ul.li {
+	text-indent:0em;
+}
+	
 
