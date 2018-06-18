@@ -11,9 +11,9 @@
     padding: 0em;
     margin-top: 1em;
     margin-bottom: 0em;
-    text-align: center;
+    text-align: left;
     width: 50%;
-    background: #white
+    background: white
   }
   div.box {
     border-color: #cc0033;
