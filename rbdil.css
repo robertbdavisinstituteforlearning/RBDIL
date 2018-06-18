@@ -8,7 +8,7 @@
   div.affiliates{
     border-color: #cc0033;
     border-width: thin;
-    padding: 0em;
+    padding: 5em;
     margin-top: 1em;
     margin-bottom: 0em;
     text-align: center;
@@ -62,7 +62,7 @@
     margin: 0em;
     position: absolute;
     top: 2em;
-    left: 0em;
+    left: 1em;
     width: 9em }
   ul.navbar li {
     background: white; 
