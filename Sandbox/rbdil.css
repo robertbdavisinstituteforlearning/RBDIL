@@ -1,0 +1,103 @@
+  
+body {
+    color: black; 
+    margin-left: 0%; 
+    margin-right: 25%;
+    background-color: white; 
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body.content {
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 20px;
+    margin-right: 20%;
+    background: #white
+    font-family:  "Times New Roman", Times, serif;
+}
+
+  div.box {
+    border-color: #cc0033;
+    border-width: thick;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    margin-left: 20px;
+/*    text-align: center; */
+    width: 100%;
+    background: #white
+} 
+
+h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif
+    color: red;
+    text-align: center;
+    border-bottom: thin solid 
+}
+
+h2.red{
+    font-family: Geneva, Arial,
+          SunSans-Regular, sans-serif ;
+    color: #cc0033;    
+    margin-bottom: 1em;
+}
+
+
+ul.navcol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0em;
+    position: absolute;
+    top: 2em;
+    left: 0.5em;
+    width: 8em;
+ }
+
+ul.navcol li {
+    list-style-type: none;
+    width: 8em; // Width of menu items
+    margin: 0;
+    padding-top: 0px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+ul.navcol a{
+    font-family: WildWest, Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+    text-align: center;
+    display:block;
+    padding: 2px;
+    color:#ffffff;
+    background:#015daa;
+    text-decoration:none;
+    font-size: 12pt; 
+}
+
+.navcol a:hover{
+    color:#ffffff;
+    background:#6b0c36;
+    background: navy;
+    text-decoration:underline;
+}  
+
+/*-----------
+  a:link {
+   color: #cc0033;
+}
+-------------*/
+
+address {
+    text-align: center;
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+
+projects {
+	margin:0;
+	overflow:hidden;
+	margin-top:40px;
+}
+

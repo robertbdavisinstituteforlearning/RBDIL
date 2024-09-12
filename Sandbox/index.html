@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="icon" href="favicon.ico" type="image.ico">
+<link rel="stylesheet" href="rbdil.css">
+<title>RBDIL</title>
+<style>
+
+#hdr {
+position: absolute;
+left: 0px; top: 0px;
+height:122px;
+width:100%;
+overflow:visible;
+scrolling:"no";
+z-index: 20;
+}
+
+#links {
+position: absolute;
+left: 0px; top: 120px;
+height:40px;
+width:100%;
+overflow:hidden;
+scrolling:"no";
+border-style: groove;
+z-index: -1;
+}
+
+#menu {
+position: absolute;
+left: 0px;
+top: 120px;
+background: white;
+height:100%;
+width:148px;
+overflow:hidden;
+scrolling:"no";
+z-index: -2;
+}
+
+
+#content {
+left: 150px;
+height:90%;
+width:100%;
+top:120px;
+overflow-x:hidden;
+overflow-y:scroll;
+position: fixed;
+background: white;
+z-index: -2;
+}
+
+</style>
+
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"
+>
+</script>
+
+<script>
+$(function(){
+  $("#header").load("Header.html");
+});
+</script>
+</head>
+
+<body>
+<!--------------- Header ----------------------->
+
+<div id="header" ></div>
+
+<noscript>
+<iframe id="hdr" scrolling="no" src="Header.html" style="position: fixed;" >
+</iframe>
+</noscript>
+
+
+<!--------------- Links ----------------------->
+
+<iframe id="links" scrolling="no" src="Links.html" style="position: fixed;" >
+</iframe>
+
+<!--------------- Menu ----------------------->
+
+<iframe id="menu" scrolling="no" src="Menu.html" style="position: fixed;" >
+</iframe>
+
+<!--------------- Content ----------------------->
+
+<iframe id="content" name="mainFrame" src="Home.html" style="position: fixed;" >
+</iframe>
+</body>
