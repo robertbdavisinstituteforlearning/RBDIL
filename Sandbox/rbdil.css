@@ -61,7 +61,7 @@ ul.navcol li {
     margin: 0;
     padding-top: 0px;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 ul.navcol a{
@@ -79,7 +79,8 @@ ul.navcol a{
 .navcol a:hover{
     color:#ffffff;
     background:#6b0c36;
-    background: navy;
+/*    background: navy; */
+background: #317dda;
     text-decoration:underline;
 }  
 
