@@ -1,6 +1,6 @@
   body {
     color: black;
-    margin-left: 5%; 
+    margin-left: 0%; 
     margin-right: 10%;
     background-color: white; 
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -50,12 +50,11 @@
   h3{
     font-family: Arial,
           SunSans-Regular, sans-serif ;
-    color: #5f6a72;
+    //color: #5f6a72;
     margin-bottom: -1em;
     }
   h4{
-    font-family: "Comic Sans MS", Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif ;
+    //font-family: Geneva, Arial, SunSans-Regular, sans-serif ;
     color:#000000 ;
     margin-bottom: 1em;}
   ul.navbar {
@@ -85,14 +84,14 @@ ul.navcol {
     padding: 0;
     margin: 0em;
     position: absolute;
-    top: 2em;
+    top: 3em;
     left: 1em;
     width: 9em;
  }
 
 ul.navcol li {
     list-style-type: none;
-    width: 9em; // Width of menu items
+    width: 8em; // Width of menu items
     margin: 0;
     padding-top: 0px;
     text-align: center;
@@ -117,9 +116,9 @@ ul.navcol a{
 }  
 
   a:link {
-    color:#cc0033 }
+    color:#000099 }
   a:visited {
-    color: #5f6a72}
+    color: #cc0033}
   ul.in li{
     background: white;
     margin: 0.1em;
@@ -132,6 +131,7 @@ ul.navcol a{
     padding-top: 1em;
     border-top: thin dotted }
 
+/*
 projects {
 	margin:0;
 	overflow:hidden;
@@ -189,5 +189,17 @@ projects.projectRight.img {
 projects.projectRight.ul.li {
 	text-indent:0em;
 }
+*/
 	
+div.logos {
+  display: flex;
+  left: 100px;
+  width: 100%;
+  block-size: 140px;
+  top: 20px;
+}
 
+div.menu {
+  position: fixed;
+  left: 0px
+}
