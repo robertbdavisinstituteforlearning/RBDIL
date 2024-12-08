@@ -1,23 +1,13 @@
-  body {
+body {
     color: black;
     margin-left: 0%; 
     margin-right: 10%;
     background-color: white; 
     font-family: Georgia, "Times New Roman", Times, serif;
-    padding-left: 11em }
-  div.affiliates{
-    border-color: #cc0033;
-    border-width: thin;
-    padding: 0em;
-    margin-left: 50%;
-    margin-right: 15%;
-    margin-top: 1em;
-    margin-bottom: 0em;
-    text-align: left;
-    width: 100%;
-    background: white
-  }
-  div.box {
+    padding-left: 11em
+}
+
+div.box {
     border-color: #cc0033;
     border-width: thick;
     padding: 1em;
@@ -25,59 +15,35 @@
     margin-bottom: 3em;
     text-align: center;
     width: 100%;
-    background: #white} 
-  box2 {
-    border: solid;
-    border-width: thin;
-    padding: 1em;
-    margin-top: 1em;
-    margin-bottom: 3em;
-    width: 100%;
-    background: white } 
-  h1 {
+    background: #white
+} 
+
+h1 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif, "Comic Sans MS";
     color: black;
     text-align: center;
     border-bottom: thin solid 
-     }
-  h2{
+}
+
+h2{
     font-family: Geneva, Arial,
           SunSans-Regular, sans-serif ;
     color: #cc0033;    
     margin-bottom: 1em;
-     }
-  h3{
+}
+
+h3{
     font-family: Arial,
           SunSans-Regular, sans-serif ;
     //color: #5f6a72;
     margin-bottom: -1em;
     }
-  h4{
+
+h4{
     //font-family: Geneva, Arial, SunSans-Regular, sans-serif ;
     color:#000000 ;
     margin-bottom: 1em;}
-  ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0em;
-    position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 9em }
-  ul.navbar li {
-    background: white; 
-    margin: 0.5em 0;
-    text-align: center;
-    padding: 0.3em;
-    border: solid black}
-  ul.navbar a {
-    font-family: WildWest, Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif;
-    font-size: 95%; 
-    text-align: center;
-    text-decoration: none;
-}
 
 ul.navcol {
     list-style-type: none;
@@ -87,16 +53,17 @@ ul.navcol {
     top: 3em;
     left: 1em;
     width: 9em;
- }
+}
 
 ul.navcol li {
     list-style-type: none;
-    width: 8em; // Width of menu items
+    width: 130px; // Width of menu items
     margin: 0;
     padding-top: 0px;
     text-align: center;
     border: 1px solid white;
 }
+
 ul.navcol a{
     font-family: WildWest, Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif;
@@ -119,78 +86,22 @@ ul.navcol a{
     color:#000099 }
   a:visited {
     color: #cc0033}
-  ul.in li{
+
+ul.in li
+{
     background: white;
     margin: 0.1em;
     text-align: left;
     padding: 0.1em;
-    border: none}
+    //border: none;
+}
+
   address {
     text-align: center;
     margin-top: 1em;
     padding-top: 1em;
     border-top: thin dotted }
 
-/*
-projects {
-	margin:0;
-	overflow:hidden;
-	margin-top:40px;
-}
-
-projects.li {
-	padding:0 30px;
-	background:none;
-	position:relative;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-projects.li.p {
-	font-size:11px;
-	color:#6b6b6b
-}
-
-projects.li.h5 {
-	margin:0;
-	padding:0;
-}
-
-projects.li.img {
-	float:left;
-	margin-right:40px;
-}
-
-projects.li.span {
-	font-size:9px;
-}
-
-projects.li.ul {
-	list-style:disc;
-	list-style-position:inside;
-}
-
-projects.li.ul.li {
-	font-size:12px;
-	padding:3px;
-	text-indent:1em
-}
-
-projects.hr {
-	clear:both;
-	margin:50px auto 40px;
-	width:70%;
-}
-
-projects.projectRight.img {
-	float:right;
-	margin-left:40px;
-}
-
-projects.projectRight.ul.li {
-	text-indent:0em;
-}
-*/
-	
 div.logos {
   display: flex;
   left: 100px;
@@ -201,5 +112,6 @@ div.logos {
 
 div.menu {
   position: fixed;
-  left: 0px
+  left: 10px;
+  top: 17px;
 }
